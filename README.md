@@ -1,8 +1,25 @@
-# React + Vite
+# MC Staging Homepage Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I made this clone using **React.js** and **Tailwind CSS** while learning Tailwind. The goal was to practice UI design and responsiveness using Tailwind utility classes.
 
-Currently, two official plugins are available:
+🌐 **Live Render Deployment:** [https://mcstaging.onrender.com](https://mcstaging.onrender.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🚀 Tech Stack
+
+- ⚛️ React.js  
+- 🎨 Tailwind CSS  
+- ⚡ Vite  
+
+---
+
+## 📦 Installation
+
+Clone the repository and run it locally:
+
+```bash
+git clone https://github.com/darshan1799/mc-staging-homepage-clone.git
+cd mc-staging-homepage-clone
+npm install
+npm run dev
