@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @layer base
+{
+  h1
+  {  
+    font-size: 48px !important;
+    font-family: "Montserrat";
+    letter-spacing: 1px !important;
+    line-height: 50px !important;
+    font-weight: 800;
+  }
+} */
+.heroSectionslider .swiper-pagination-bullet{
+  background: rgb(249, 249, 249) !important;
+  cursor: pointer; 
+  
+}
+.heroSectionslider .swiper-slide:active
+{
+  cursor: pointer;
+}
+
+.heroSectionslider .swiper-slide-active .dk-content h1{ 
+ 
+  animation: h1-animation 1s ;
+ 
+}
+.heroSectionslider .swiper-slide-active .dk-content p{ 
+ 
+  animation: p-animation 1.5s ;
+}
+.heroSectionslider .swiper-slide-active .dk-content button{ 
+ 
+  animation: b-animation 2s ;
+}
+@keyframes h1-animation {
+  0%
+  {
+    transform: translatex(-400px);
+    opacity: 0;
+  }
+  100%
+  {
+    transform: translatex(0px);
+    opacity: 1;
+    
+  }
+}
+@keyframes p-animation {
+  0%
+  {
+    transform: translatex(400px);
+    opacity: 0;
+    
+  }
+  100%
+  {
+    transform: translatex(0px);
+    opacity: 1;
+    
+  }
+}
+@keyframes b-animation {
+  0%
+  {
+    transform: translateY(400px);
+    opacity: 0;
+  }
+  
+  100%
+  {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-animation {
+  0%
+  {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  /* 50%
+  {
+    transform: translateY(150px);
+    opacity: 0.5;
+  } */
+  
+  100%
+  {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+
+
+ /* product section slide */
+
+ 
+
+ .ProductSection .swiper-slide
+ {
+   height: 80%;
+   margin-top: 56px;
+   
+ }
+ .ProductSection .swiper-slide-active
+ {
+   margin-top: 0px;
+   height: 100%;
+   
+ }
+ .ProductSection .swiper-slide-active img
+ {
+   width: 100%;
+   height: 100%;
+ }
+ 
+.PopularProductSlider .swiper {
+  width: 100%;
+  height: 100%;
+}
+.PopularProductSlider .swiper-pagination-bullets{
+  position: absolute;
+  bottom: 0px !important;
+}
+
